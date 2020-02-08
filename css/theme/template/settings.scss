@@ -19,7 +19,7 @@ $headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
-$headingTextShadow: none;
+$headingTextShadow: 3px 3px 3px #000;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
 
@@ -33,7 +33,8 @@ $codeFont: monospace;
 // Links and actions
 $linkColor: #13DAEC;
 $linkColorHover: lighten( $linkColor, 20% );
-
+$twitterColor: #fff;
+$accentColor: #13DAEC;
 // Text selection
 $selectionBackgroundColor: #FF5E99;
 $selectionColor: #fff;

@@ -3,15 +3,38 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description"
+		content="Onboarding developers to new projects can be a time consuming process, especially if there's not dedicated documentation explaining the ins & outs of your codebase or the brilliant design system your team created. You can help ease this process by creating code snippets of your project's custom components for new team members to use! Learn how to build and share custom snippets in VS Code, Sublime, and Atom and spend less time with onboarding woes!">
+	<meta name="keywords"
+		content="Jennifer Wadella, software engineer, women in tech speaker, female software engineer, female speaker, female founder, non-profit consultant, female coder, Kansas City Women in Technology, kcwit, kcwit founder, women engineers, girls in tech, women in tech, coding &amp; cocktails, coding &amp; cupcakes, CoderDojoKC">
+	<meta itemprop="name" content="Onboard New Developers Faster with Custom Snippets!">
+	<meta itemprop="description"
+		content="Onboarding developers to new projects can be a time consuming process, especially if there's not dedicated documentation explaining the ins & outs of your codebase or the brilliant design system your team created. You can help ease this process by creating code snippets of your project's custom components for new team members to use! Learn how to build and share custom snippets in VS Code, Sublime, and Atom and spend less time with onboarding woes!">
+	<meta itemprop="image" content="http://tehfedaykin.github.io/CustomSnippets/img/cover.png">
+	<meta property="og:title" content="Onboard New Developers Faster with Custom Snippets!">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://tehfedaykin.github.io/CustomSnippets/img/cover.png">
+	<meta property="og:url" content="http://tehfedaykin.github.io/CustomSnippets">
+	<meta property="og:description"
+		content="Onboarding developers to new projects can be a time consuming process, especially if there's not dedicated documentation explaining the ins & outs of your codebase or the brilliant design system your team created. You can help ease this process by creating code snippets of your project's custom components for new team members to use! Learn how to build and share custom snippets in VS Code, Sublime, and Atom and spend less time with onboarding woes!">
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:title" content="Onboard New Developers Faster with Custom Snippets!">
+	<meta property="twitter:creator" content="@likeOMGitsFEDAY">
+	<meta property="twitter:image"
+		content="http://tehfedaykin.github.io/CustomSnippets/img/cover.png">
+	<meta property="twitter:url" content="http://tehfedaykin.github.io/CustomSnippets">
+	<meta property="twitter:description"
+		content="Onboarding developers to new projects can be a time consuming process, especially if there's not dedicated documentation explaining the ins & outs of your codebase or the brilliant design system your team created. You can help ease this process by creating code snippets of your project's custom components for new team members to use! Learn how to build and share custom snippets in VS Code, Sublime, and Atom and spend less time with onboarding woes!">
 
-		<title>reveal.js</title>
+		<title>Onboard New Developers Faster with Custom Snippets!</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/pinkglitter.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
+		<link rel="stylesheet" href="plugin/prism/okadia.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -25,9 +48,219 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section id="title">
+					<h1>Onboard New Devs <i class="accent">FASTER</i><br /> with Custom Snippets!</h1>
+					<h3 class="accent">Jennifer Wadella</h3>
+				</section>
+				<section id="problem">
+					<h2>Onboarding Sucks</h2>
+					<ul>
+						<li class="fragment sweet-effect-left">Not enough documentation</li>
+						<li class="fragment sweet-effect-left">Too much hidden knowledge</li>
+						<li class="fragment sweet-effect-right">"Wait, why aren't you using our great design system?"</li>
+					</ul>
+				</section>
+				<section id="codesnippets">
+					<h2><span class="accent">Code Snippets</span> to the Rescue!</h2>
+					<span class="sweet-effect">Code snippets aid developer workflow & allow
+					new team members to discover patterns, components,
+					and design systems with just a few keystrokes.</span>
+					<aside class="notes">
+						Onboarding new team members can be rough, especially when you don't have the perfect 
+						greenfield codebase and developers hate reading documentation almost as much as they 
+						hate root canals. A great way to help your team do things your way is by creating code 
+						snippets for them to easily use already created components instead of recreating the wheel. 
+						When they start to build a piece of ui, encourage them to use the snippets to see if the 
+						component already exists - thanks to the handy extensions you've built for their editor 
+						cause you're so awesome!
+					</aside>
+				</section>
+				<section id="example-project">
+					<h2>Example Project</h2>
+					<span class="sweet-effect">We'll create code snippets using the prefix: "milkshake"</span>
+					<p><a href="https://stackblitz.com/edit/github-5cph13" target="_blank">https://stackblitz.com/edit/github-5cph13</a></p>
+				</section>
+				<section id="components">
+					<h2>Our Design System:</h2>
+					<span class="sweet-effect">Buttons, inputs, tabs, a snippet to add a sparkle class - what more could you need?</span>
+				</section>
+				<section id="button" 
+				data-markdown="code/button.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="button-code" 
+				data-markdown="code/button-code.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="input" 
+				data-markdown="code/input.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="input-code" 
+				data-markdown="code/input-code.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="tabs" 
+				data-markdown="code/tabs.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="tabs-code" 
+				data-markdown="code/tabs-code.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="class" 
+				data-markdown="code/class.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="class-code" 
+				data-markdown="code/class-code.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+				<section id="code-snippets">
+					<h2>What Are Code Snippets?</h2>
+					<span class="sweet-effect">A small piece of text or code to be inserted into a file in our code editor.</span>
+				</section>
+				<section id="snippet-image">
+					<img src="img/usetabssnippet.gif" alt="">
+				</section>
+				<section id="common-snippets">
+					<h2>Common Snippets</h2>
+					<ul>
+						<li>Emmet</li>
+					</ul>
+				</section>
+				<section id="snippet-anatomy">
+					<h2>VS Code Snippet anatomy</h2>
+					<pre><code data-trim data-noescape class="hljs" data-line-numbers="2|3|4|5|6|9">
+{
+  "Print to console": { (1)
+    "scope": "javascript,typescript", (2)
+    "prefix": "milkshake", (3)
+    "body": [ (4)
+      "console.log('$1 is super cool');", (5)
+      "$2"
+    ],
+    "description": "Log output to console" (7)
+  }
+}
+						</code></pre>
+						<aside class="notes">
+							(1) - the name of your snippet </br>
+(2) - what file types you want your snippet to be available in</br>
+(3) - what you need to type to be able to select your snippet</br>
+(4) - the code that your snippet will generate</br>
+(5) - the $1 is a variable space where the cursor will go on tab completion. these are called __tabspots__</br>
+(6) - you can tab through as many variables as you want</br>
+(7) - a longer description describing the what the snippet does</br>
+						</aside>
+				</section>
+				<section id="create-snippet-gif">
+					<img style="width:100%;height:100%;" class="plain" src="img/createsnippetLG.gif" alt="creating a snippet file in VS code">
+				</section>
+				<section id="create-snippet">
+					<h2>To Create a Snippet</h2>
+					<ol>
+						<li class="fragment">Open your command palette (cmd + shit + p)</li>
+						<li class="fragment">Search for `Preference: Configure User Snippets`</li>
+						<li class="fragment">Select `New Snippets file for {{project name}}`</li>
+					</ol>
+				</section>
+				<section id="create-button">
+					<h2>Creating Our Button Snippet</h2>
+					<pre><code data-trim class="hljs">
+						{
+						  "Milkshake button": {
+						    "scope": "html",
+						    "prefix": "milkshake",
+						    "body": [
+					        "<milkshake-button text=\"$1\"></milkshake-button>"
+						    ],
+						    "description": "Creates milkshake button component"
+						  }
+						}
+					</code></pre>
+				</section>
+				<section id="button-snippet-in-use">
+					<img style="width:100%;height:100%;" class="plain" src="img/buttonsnippet.gif" alt="">
+				</section>
+				<section id="create-input-snippet">
+					<h2>Creating Our Input Snippet</h2>
+					<pre><code data-trim class="hljs">
+						{
+						  "Milkshake input": {
+						    "scope": "html",
+						    "prefix": "milkshake",
+						    "body": [
+						      "<milkshake-input formInputName=\"$1\" placeholderText=\"$2\"></milkshake-input>"
+						    ],
+						    "description": "Creates milkshake input component"
+						  }
+						}
+					</code></pre>
+				</section>
+				<section id="input-snippet-in-use">
+					<img style="width:100%;height:100%;" class="plain" src="img/inputsnippet.gif" alt="using a custom input snippet">
+				</section>
+				<section id="create-tabs-snippet">
+					<h2>Creating our Tabs Snippet</h2>
+					<pre><code data-trim class="hljs">
+						{
+						  "Milkshake tabs": {
+						    "scope": "html",
+						    "prefix": "milkshake",
+						    "body": [
+						      "<milkshake-tabs>",
+						      "	<tab tabTitle=\"${1:Tab 1}\" >",
+						      "		${2:Tab 1 content}",
+						      "	</tab>",
+						      "	<tab tabTitle=\"${3:Tab 2}\">",
+						      "		${4:Tab 2 content}",
+						      "	</tab>",
+						      "</milkshake-tabs>"
+						    ],
+						  "description": "Creates milkshake tabs component"
+						  }
+						}
+					</code></pre>
+				</section>
+				<section id="tab-snippet-in-use">
+					<img style="width:100%;height:100%;" class="plain" src="img/usetabssnippet.gif" alt="using a custom tabs snippet">
+				</section>
+				<section id="create-js-snippet">
+					<h2>Creating our JS sparkle adding snippet</h2>
+					<pre><code data-trim class="hljs">
+						{
+						  "Milkshake sparkleClass": {
+						    "scope": "javascript, typescript",
+						    "prefix": "milkshake",
+						    "body": [
+						      "this.${1:isSparkling} = true;",
+						      "setTimeout(() => {",
+						      "	this.${1:isSparkling} = false;",
+						      "}, 350);"
+						    ],
+						    "description": "Creates milkshake isSparkle member setting & timeout"
+						  }
+						}
+					</code></pre>
+				</section>
+				<section id="js-snippet-in-use">
+					<img style="width:100%;height:100%;" class="plain" src="img/usejssnippetparam.gif" alt="Using custom JavaScript snippet">
+				</section>
+				<section id="sharing-snippets">
+					<h2>Good Friends Share Snippets</h2>
+					<span class="sweet-effect">Commit your snippet file to your app repo and it'll be available for any other developers using VS Code.</span>
+				</section>
+				<section id="summary">
+					<h2>Summary</h2>
+					<ul>
+						<li class="sweet-effect-left">Code snippets can help new team members</li>
+						<li class="sweet-effect-right">Command palette > configure custom snippets</li>
+						<li class="sweet-effect-left">Use tabspots for increased efficiency</li>
+						<li class="sweet-effect-right">Save keystrokes not grudges. </li>
+					</ul>
+				</section>
+				<section id="questions">
+					<h2>Now go bask in the glow of your team's love and efficiency. <3 </h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/pGL2rytTraA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>Slides: <a href="http://tehfedaykin.github.io/CustomSnippets">http://tehfedaykin.github.io/CustomSnippets</a></p>
+				</section>
 			</div>
+		</div>
+		<div class="twitter-overlay">
+			<span>@likeOMGitsFEDAY</span> <span>#creatingcustomsnippets</span> <span>#VSLive</span>
 		</div>
 
 		<script src="js/reveal.js"></script>
@@ -41,8 +274,9 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					//{ src: 'plugin/prism/prism.js', async: true }
 				]
 			});
 		</script>
